@@ -1,0 +1,61 @@
+/* Não deixar o conteúdo colar no topo da pagina */
+.container {
+    margin-top: 3%;
+}
+
+/* Container que centraliza os itens */
+.form-container {
+    min-width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Caixa dentro do container. Colocar form la. */
+.form-box {
+    min-width: 400px;
+    min-height: 400px;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    box-shadow: 3px 5px #D3D3D3;
+    padding: 20px;
+}
+
+/* Espaço antes e depos do formulario */
+.form-box>form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Estilo de links do sistema: cores */
+.system-link {
+    color: #17a2b8;
+}
+.system-link:hover {
+    color: #0d7889;
+}
+
+/* Rotulos de campos em negrito */
+label {
+    font-weight: bold;
+}
+
+/* Spans de campo obrigatórios em vermelho */
+.required {
+    color: red;
+}
+
+/* Cor dos cabecalhos de todas as tabelas do sistema */
+.table>thead {
+    background: #117a8b;
+    color: white;
+}
+
+/* Botões de alterar, remover... em coluna de tabela */
+.table-controls>button, .table-controls>a {
+    border-radius: 50%;
+    margin-right: 3px;
+}
